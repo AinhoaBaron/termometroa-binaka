@@ -5,4 +5,7 @@ basic.forever(function () {
     TenpExt = TenpExt - 2
     basic.showString("" + (TenpExt))
     radio.sendNumber(TenpExt)
+    if (TenpExt < 0) {
+    	
+    }
 })

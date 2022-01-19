@@ -6,6 +6,6 @@ basic.forever(function () {
     basic.showString("" + (TenpExt))
     radio.sendNumber(TenpExt)
     if (TenpExt < 0) {
-    	
+        music.playTone(262, music.beat(BeatFraction.Breve))
     }
 })
